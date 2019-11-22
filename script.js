@@ -35,7 +35,7 @@ for (let i = 0; i < honorIcons.length; i++) {
                     championAudio.volume = 0.1;
                     championAudio.play();
                 } else if (honorIcons[i].parentElement.id === 'column3') {
-                    let championAudio = new Audio('Champions/Qiyana/Select.ogg');
+                    let championAudio = new Audio('Champions/Nasus/Select.ogg');
                     championAudio.volume = 0.1;
                     championAudio.play();
                 }
