@@ -27,7 +27,7 @@ for (let i = 0; i < honorIcons.length; i++) {
             setTimeout(() => {
                 honorIcons[i].style.height = '0px';
                 if (honorIcons[i].parentElement.id === 'column1') {
-                    let championAudio = new Audio('Champions/Qiyana/Select.ogg');
+                    let championAudio = new Audio('Champions/Teemo/Select.ogg');
                     championAudio.volume = 0.1;
                     championAudio.play();
                 } else if (honorIcons[i].parentElement.id === 'column2') {
@@ -35,7 +35,15 @@ for (let i = 0; i < honorIcons.length; i++) {
                     championAudio.volume = 0.1;
                     championAudio.play();
                 } else if (honorIcons[i].parentElement.id === 'column3') {
-                    let championAudio = new Audio('Champions/Nasus/Select.ogg');
+                    let championAudio = new Audio('Champions/JarvanIV/Select.ogg');
+                    championAudio.volume = 0.1;
+                    championAudio.play();
+                } else if (honorIcons[i].parentElement.id === 'column4') {
+                    let championAudio = new Audio('Champions/Sion/Select.ogg');
+                    championAudio.volume = 0.1;
+                    championAudio.play();
+                } else if (honorIcons[i].parentElement.id === 'column5') {
+                    let championAudio = new Audio('Champions/Aphelios/Select.ogg');
                     championAudio.volume = 0.1;
                     championAudio.play();
                 }
